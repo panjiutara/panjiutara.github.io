@@ -3,28 +3,28 @@ body {
 }
 
 .pagetitle{
-	background-color: #ffeb3b;
-	padding: 10px 0 20px;
-	color: #b71c1c;
-	font-weight: bold;
-	text-transform: uppercase;
+  background-color: #ffeb3b;
+  padding: 10px 0 20px;
+  color: #b71c1c;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .navbar {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 section {
-	padding: 40px 0;
+  padding: 40px 0;
 }
 .panjibrand{
     text-transform: capitalize;
 }
 
 .logoup{
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: xx-large;
-	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 2px;
 }
 .highlight{
     color:#ffeb3b;
@@ -138,77 +138,89 @@ section {
 }
 
 .jumbotron img{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-success{
-	background-color: #2e7d32;
-	border-color: #2e7d32;
+  background-color: #2e7d32;
+  border-color: #2e7d32;
 }
 
 .btn-danger{
-	background-color: #b71c1c;
-	border-color: #b71c1c;
+  background-color: #b71c1c;
+  border-color: #b71c1c;
 }
 
 .img-circle{
-	width: 100%;
+  width: 100%;
 }
 
 section#gelanggang {
-	text-align: center;
-	text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 section#gelanggang h2{
-	padding: 10px 0 5px;
+  padding: 10px 0 5px;
 }
 
 section#gelanggang a{
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-#sejarah p{
-	text-align: justify;
-	line-height: 2em;
-	padding: 10 10 0 0px;
+.latarbelakang {
+  background-color: #2e7d32;
+  color: #fff;
+  padding: 40px 0 40px;
+}
+
+#sejarah,.latarbelakang p{
+  text-align: justify;
+  line-height: 2em;
+  padding: 10 10 0 0px;
+}
+
+.latarbelakang h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffeb3b;
 }
 
 #sejarah h2,h3{
-	padding: 30px 0 20px;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
+  padding: 30px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-#sejarah img{
-	display: block;
-	margin: 0 auto;
+#head-pengenalan img{
+  display: block;
+  margin: 0 auto;
 }
 
 footer{
-	background: #b71c1c;
-	color: #fff;
-	padding: 30px 0 20px;
+  background: #b71c1c;
+  color: #fff;
+  padding: 30px 0 20px;
 }
 footer li{
-	float:left;
-	padding: 0 10px;
-	list-style: none;
+  float:left;
+  padding: 0 10px;
+  list-style: none;
 }
 
 footer a{
-	color: #fff;
+  color: #fff;
 }
 
 footer a:hover{
-	color:#ffeb3b;
-	text-decoration: none;
+  color:#ffeb3b;
+  text-decoration: none;
 }
 
 footer p{
-	float: right;
-	padding-right: 30px;
+  float: right;
+  padding-right: 30px;
 }
