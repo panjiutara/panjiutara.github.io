@@ -157,38 +157,53 @@ section {
   width: 100%;
 }
 
-section#gelanggang {
+h3{
+  text-transform: uppercase;
+  text-align: left;
+}
+section h2{
+  text-transform: uppercase;
+}
+
+#gelanggang {
   text-align: center;
   text-transform: uppercase;
 }
 
-section#gelanggang h2{
+#gelanggang h2{
   padding: 10px 0 5px;
 }
 
-section#gelanggang a{
+#gelanggang a{
   margin-bottom: 40px;
 }
 
-.latarbelakang {
+.hijau {
   background-color: #2e7d32;
   color: #fff;
   padding: 40px 0 40px;
 }
 
-#sejarah,.latarbelakang p{
+.article p{
   text-align: justify;
   line-height: 2em;
   padding: 10 10 0 0px;
 }
 
-.latarbelakang h2{
+.hijau h2{
   text-transform: uppercase;
   font-weight: bold;
   color: #ffeb3b;
 }
 
-#sejarah h2,h3{
+.hijau .nophone{
+  color: #ffeb3b;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+#sejarah h2{
   padding: 30px 0 20px;
   text-align: center;
   text-transform: uppercase;
@@ -198,6 +213,13 @@ section#gelanggang a{
 #head-pengenalan img{
   display: block;
   margin: 0 auto;
+}
+
+#head-pengenalan h3{
+  padding: 30px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 footer{
