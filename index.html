@@ -10,8 +10,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Google font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   </head>
 
   <body>
@@ -43,11 +46,11 @@
                 <div class="col-md-6 col-sm-12">
                     <h1>Panji <span class="highlight">Utara</span></h1>
                     <p>Gabungan negeri-negeri utara semenanjung Malaysia</p>
-                    
+
                     <button class="btn btn-danger">Pengenalan</button>
                     <button class="btn btn-danger">Daftar</button>
                 </div>
-                
+
                 <div class="col-md-6 hidden-sm hidden-xs">
                     <img class="showcase-img" src="img/pulogo.png"/>
                 </div>
@@ -58,35 +61,35 @@
     <section  id="gelanggang">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6 gelanggang-item">
               <img src="img/perlis.png" class="img-circle img-responsive" alt="">
               <h2>Perlis</h2>
-              <a class="btn btn-success" href="#"><span class="hidden-xs">Lihat</span> Gelanggang</a>
-             
+              <a class="btn btn-success" href="#gelanggangModalPerlis" class="gelanggang-link" data-toggle="modal"><span class="hidden-xs">Lihat</span> Gelanggang</a>
+
             </div>
 
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6 gelanggang-item">
               <img src="img/kedah.png" class="img-circle img-responsive" alt="">
               <h2>Kedah</h2>
-              <a class="btn btn-success" href="#"><span class="hidden-xs">Lihat</span> Gelanggang</a>
+              <a class="btn btn-success" href="#gelanggangModalKedah" class="gelanggang-link" data-toggle="modal"><span class="hidden-xs">Lihat</span> Gelanggang</a>
             </div>
 
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6 gelanggang-item">
               <img src="img/penang.png" class="img-circle img-responsive" alt="">
               <h2>Pulau Pinang</h2>
-              <a class="btn btn-success" href="#"><span class="hidden-xs">Lihat</span> Gelanggang</a>
+              <a class="btn btn-success" href="#gelanggangModalPenang" class="gelanggang-link" data-toggle="modal"><span class="hidden-xs">Lihat</span> Gelanggang</a>
             </div>
 
-            <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="col-md-3 col-sm-3 col-xs-6 gelanggang-item">
               <img src="img/perak.png" class="img-circle img-responsive" alt="">
               <h2>Perak</h2>
-              <a class="btn btn-success" href="#"><span class="hidden-xs">Lihat</span> Gelanggang</a>
+              <a class="btn btn-success" href="#gelanggangModalPerak" class="gelanggang-link" data-toggle="modal"><span class="hidden-xs">Lihat</span> Gelanggang</a>
             </div>
           </div>
 
         </div>
     </section>
-    
+
     <footer>
       <div class="container">
         <div class="row">
@@ -103,6 +106,111 @@
         </div>
       </div>
     </footer>
+
+    <!-- Gelanggang Modals -->
+    <div class="gelanggang-modal modal fade" id="gelanggangModalPerlis" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Perlis</h2>
+                            <hr class="star-primary">
+                            <img src="img/perlis.png" class="img-responsive img-centered" alt="map perlis">
+                            <h3>Gelanggang Kangar</h3>
+                            <p class="besar">Maaf. Masih belum mendapat maklumat penuh. Sila hubungi wakil negeri di halaman <a href="hubungi.html">hubungi</a></p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gelanggang-modal modal fade" id="gelanggangModalKedah" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Kedah</h2>
+                            <hr class="star-primary">
+                            <img src="img/kedah.png" class="img-responsive img-centered" alt="map kedah">
+                            <p class="besar">Maaf. Masih belum mendapat maklumat penuh. Sila hubungi wakil negeri di halaman <a href="hubungi.html">hubungi</a></p>
+                            <h3>Alor Setar</h3>
+                            <p class="besar">Mergong</p>
+                            <h3>Sungai Petani</h3>
+                            <p class="besar">Taman Sejati</p>
+                            <h3>Padang Serai</h3>
+                            <p class="besar">Taman Ria</p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gelanggang-modal modal fade" id="gelanggangModalPenang" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pulau Pinang</h2>
+                            <hr class="star-primary">
+                            <img src="img/penang.png" class="img-responsive img-centered" alt="map Pulau Pinang">
+                            <p class="besar">Maaf. Masih belum mendapat maklumat penuh. Sila hubungi wakil negeri di halaman <a href="hubungi.html">hubungi</a></p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gelanggang-modal modal fade" id="gelanggangModalPerak" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Perak</h2>
+                            <hr class="star-primary">
+                            <img src="img/perak.png" class="img-responsive img-centered" alt="map perak">
+                            <p class="besar">Maaf. Masih belum mendapat maklumat penuh. Sila hubungi wakil negeri di halaman <a href="hubungi.html">hubungi</a></p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
